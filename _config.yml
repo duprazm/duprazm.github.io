@@ -1,0 +1,23 @@
+timezone: UTC
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: page
+    values:
+      layout: some_default
+  -
+    scope:
+      path: "static_files/excluded.pdf"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "static_files/html_file.html"
+    values:
+      sitemap: false
+
+url: "https://duprazm.github.io" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
