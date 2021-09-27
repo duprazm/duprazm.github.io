@@ -87,6 +87,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - data/CV_Maxime_Dupraz.pdf
   
 
