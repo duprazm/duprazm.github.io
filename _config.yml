@@ -81,12 +81,12 @@ plugins:
 
 # Exclude these files from your production _site
 exclude:
+  - token_github.odt
+  - googlec8d5df6b72d553f5.html
+  - head.html
   - Gemfile
   - Gemfile.lock
-  - LICENSE
   - README.md
-  - CNAME
-  - command.txt
-  - todo.txt
-  - _temp/index.html
-  - _temp/
+  - data/CV_Maxime_Dupraz.pdf
+  
+
